@@ -1,1 +1,105 @@
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.git-details {
+  word-spacing: 5px;
+}
+
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.Profile_picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.blue-background {
+  background-color: blue;
+}
+
+.form-group {
+  padding-top: 20px;
+}
+
+h4 {
+  color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.user-profile {
+  text-align: center;
+  background-color: rgb(193, 209, 240);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-sm-5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  color: darkgray;
+
+}
+
+.panel_body {
+  float: left;
+  padding: 5px;
+  width: 33.33%;
+  display: flex;
+}
+
+.list {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  margin-right: 50px;
+
+}
+
+.column {
+  float: left;
+  padding: 5px;
+  width: 33.33%;
+  margin: auto;
+  column-count: auto;
+  display: flex;
+}
+
+.col-sm-6 {
+  margin-right: 5px;
+}
 @import "~bootstrap/dist/css/bootstrap.css"
