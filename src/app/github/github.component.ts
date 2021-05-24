@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { GithubService } from '../services/github.service';
 
@@ -11,7 +10,11 @@ export class GithubComponent implements OnInit {
 
   profile: any;
   repos: any;
+  name:string;
   username: string;
+  avatar_url:any;
+  followers:any;
+  following:any;
 
   constructor(private githubService: GithubService) {
     this.githubService.updateUserProfile(this.username);
