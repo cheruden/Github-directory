@@ -1,3 +1,8 @@
+# Github-Search
+## Author
+DENNIS KIPKORIR CHERUIYOT
+## Description
+It is an app that allows the users to enter their github user names and their repositories will be displayed.
 # GithubApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
